@@ -1,0 +1,43 @@
+div.timetoD{
+    color: saddlebrown;
+}
+div.spectre{
+    color: orangered;
+}
+div.skyfall{
+    color: rebeccapurple;
+}
+div.quantum{
+    color: yellowgreen;
+}
+div.casino{
+    color: rgb(61, 61, 25);
+}
+
+body{
+    margin-left: 200px;
+    background-image: url("back3.jpg");
+}
+ul.navbar {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 125px;
+}
+
+ul.navbar li {
+    margin: 5px 0;
+    padding: 7.5px;
+    border-right: 1px solid #17252a;
+    border-top: 1px solid #17252a;
+    border-left: 10px solid #17252a;
+    border-bottom: 1px solid #17252a;
+    list-style-type: none;
+}
+
+ul.navbar a{
+    text-decoration: none;
+}
+.page{
+    text-align: center;
+}
