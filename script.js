@@ -88,6 +88,9 @@ function rmItem() {
     var number = document.getElementById("number").value;
     let lis = document.getElementById("listItems").children;
 
-    lis[number].remove();
+    if(number < lis.length){
+        lis[number].remove();
+    }
+    
     
 }
