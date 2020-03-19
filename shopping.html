@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="utf-8">
+        <title>Shopping</title>
+    </head>
+    <body>
+        <h1> Shopping </h1>
+
+        <div>
+            <input type="checkbox" id="important"
+            value="Is important">
+            Is important
+            <br>
+            <input type="checkbox" id="grocery"
+            value="Can be bouht in groceries">
+            Can be bought in groceries
+            <br>
+            <br>
+            <label for="items"></label>
+            Item to buy :
+            <input type="text" id="items" placeholder=" Put item needed here !">
+            <br>
+            <br>
+            <button type="button" id="buttonItem" onclick="addItem()">Add an item</button>
+            <br>
+            <br>
+            <label for="number"></label>
+            <input type="number" id="number" placeholder="Enter a number">
+            <button type="button" id="rmButton" onclick="rmItem()">Remove an item</button>
+            <ul id="listItems">
+
+            </ul>
+        </div>
+
+        <br>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
